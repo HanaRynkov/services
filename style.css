@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: url(/boy_girl.png);
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: right top;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font: 1em sans-serif;
+    ;
+}
+
+.left {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    min-width: 120px;
+    margin-left: 20px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.middle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0;
+    list-style-type: none;
+}
+
+.right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    min-width: 120px;
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+.menu_1 {
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu_1 button {
+    background-color: rgb(255, 115, 0);
+    padding: 12px 24px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.menu_1 button:hover {
+    background-color: rgb(209, 97, 6);
+}
+
+.menu_1 button:focus, .menu_1 button:active {
+    background-color: rgb(145, 68, 5);
+}
+
+.text_1 {
+    color: black;
+    font-size: 40px;
+    font: x-large;
+    font-weight: 600;
+}
+
+.text_2 {
+    color: black;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.text_3 {
+    color: rgb(146, 135, 135);
+    font-size: small;
+    font-weight: 600;
+}
+
+.text_4 {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.text_5 {
+    margin-top: 20px;
+}
+
+.button_1 {
+    background-color: rgb(255, 115, 0);
+    padding: 12px 24px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.button_2 {
+    background-color: rgb(19, 18, 18);
+    padding: 12px 24px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.different {
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+
+.card {
+    
+    width: 30%;
+    height: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.card::before,
+.card::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+
+    color: rgb(146, 144, 144);
+    margin: 20px;
+
+
+}
+
+.card-img-top {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.title_centre {
+    display: flex;
+    color: black;
+    font-size: 60px;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.card-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
